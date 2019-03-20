@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body {
+    min-height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222;
+    font-family: 'VT323', monospace;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #eee;
+    margin: 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #eee;
+    text-shadow: 1px 1px 0px #c687b4;
+}
+
+.octaveDisplay {
+    display: flex;
+}
+
+.octave {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #eee;
+}
+
+#scope {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex: 1;
+}
+
+#scope canvas {
+    flex: 1;
+}
+
+.footer {
+    width: 100%;
+    background: #c687b4;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    font-size: 1.5em;
+    color: #222;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.selected {
+    background: #c687b4;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
